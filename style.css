@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background-color: #DCE3E3;
+    background-color: #fff;
     font-family: var(--font-family);
     font-size: var(--font-size);
     line-height: 1.4;
@@ -56,7 +56,7 @@ img {
 }
 
 header {
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #E2E8F0;
 }
 
 .navbar {
@@ -84,7 +84,6 @@ header {
 
 .nav-item:hover {
     color: var(--medium-Gray);
-    border-bottom: 2px solid #23345B;
 }
 
 .hamburger {
@@ -102,6 +101,7 @@ header {
 
 .section-intro {
     padding: 8rem 0;
+    border-bottom: 1px solid #E6E6E6;
 }
 
 .text-wrapper {
@@ -154,6 +154,7 @@ button a {
 .work,
 .about {
     padding: 3rem 0;
+    border-bottom: 1px solid #E6E6E6;
 }
 
 .about-text {
@@ -193,6 +194,45 @@ button a {
     outline: 5px solid var(--medium-Gray);
 }
 
+.skills {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.skills h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #23345B;
+}
+
+.skills-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.skills img {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: 1px solid #333;
+    font-size: 1.5rem;
+    color: #333;
+    border-radius: 4px;
+    transition: transform 300ms ease-in-out;
+}
+
 .work {
     display: flex;
     flex-direction: column;
@@ -203,7 +243,7 @@ button a {
 .work h2 {
     font-size: 1.7rem;
     color: var(--almost-Black);
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
 }
 
 .work h2::after {
@@ -226,7 +266,8 @@ button a {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
     place-content: center;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #E6E6E6;
 }
 
 .card {
@@ -272,7 +313,7 @@ button a {
 
 .connect {
     text-align: center;
-    padding: 3rem;
+    padding: 2rem 0;
 }
 
 .connect-me h2 {
