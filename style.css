@@ -188,7 +188,7 @@ button a {
 .about-img img {
     width: 100%;
     border-radius: 50%;
-    outline: 5px solid var(--medium-Gray);
+    border: 5px solid var(--medium-Gray);
 }
 
 .skills {
@@ -356,7 +356,7 @@ button a {
     padding: 1rem 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 500px) {
     body {
         font-size: 14px;
     }
